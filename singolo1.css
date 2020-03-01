@@ -1,23 +1,25 @@
 *{
     padding: 0px;
     margin: 0px;
+    box-sizing: border-box;
 }
 
-html{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: Lato;
-}
+/* html{
+   
+} */
 
 body{
-    width: 1021px;
-
+    width: 1020px;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    font-family: Lato;
 }
 
 header{
     background-color: #2D303A;
     height: 90px;
+    width: 100%;
 }
 
 header nav{
@@ -43,8 +45,7 @@ header .logo{
     color: #F06C64;
 }
 
-header .menu{
-    width: 50%;
+nav ul{
     margin-right: 41px;
     height: 100%;
     margin-left: 11px;
@@ -52,17 +53,8 @@ header .menu{
     justify-content: flex-end;
     align-items: center;
 }
-.menu ul{
-    display: flex;
-    justify-content: space-around;
-    list-style-type: none;
-    text-transform: uppercase;
-    vertical-align: middle;
-    text-decoration: none;
-    cursor: pointer;
-}
 
-.menu ul li a{
+ ul li a {
     font-size: 12px;
     line-height: 6px;
     color: #f06c64;
@@ -70,20 +62,26 @@ header .menu{
     font-weight: 700;
     cursor: pointer;
     text-decoration: none;
+    text-transform: uppercase;
 }
 
-.menu ul li:after { 
-    content: " \00b7"; 
-    margin-left: 15px;
+nav ul li{
     margin-right: 15px;
-    color: #494E62;
+    list-style-type: none;
 }
-.menu ul li:last-child:after { 
-    content: none; 
-}
-.menu ul li:not(:first-child){
+
+li:not(:first-child)::before {
+    content: " \2027";
     color: #FFFFFF;
+    margin-right: 15px;
+    font-size: 10px;
 }
+
+ul li a:hover {
+    color: #FFFFFF;
+    font-size: 20px;
+  }
+
 
 .phone{
     height: 601px;
