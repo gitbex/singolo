@@ -1,0 +1,165 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Lato';
+}
+
+body{
+    max-width: 1020px;
+    margin: 0 auto;
+}
+.get-quote{
+    max-width: 1020px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 67px;
+    background-color: #f06c64;
+    height: 648px;
+    color: #f0d8d9;
+    font-family: "Lato";
+}
+.get-quote h1{
+    margin-bottom: 29px;
+    font-size: 30px;
+    line-height: 18px;
+    color: #f0d8d9;
+    font-family: "Lato";
+    font-weight: 900;
+    text-align: left;
+}
+.get-quote p{
+    line-height: 30px;
+    font-size: 18px;
+    color: #f0d8d9;
+font-family: "Lato";
+font-weight: 300;
+}
+.get-quote .contact {
+    width: 100%;
+    margin-top: 44px;
+}
+.get-quote .input{
+    width: 620px;
+    float: left;
+}
+.get-quote .information{
+    width: 301px;
+    float: right;
+}
+.input form input{
+    width: 619px;
+    height: 38px;
+    background-color: #d6564f;
+    padding-left: 15px;
+    color: #ffff;
+    margin-bottom: 16px;
+ }
+.input form textarea{
+    width: 619px;
+    height: 202px;
+    background-color: #d6564f;
+    padding-left: 15px;
+    padding-top: 10px;
+    color: #ffff;
+    resize: none;
+}
+.input input, textarea{
+  border:none;
+  border-radius: 5px;
+}
+textarea:focus, input:focus{
+    outline: none;
+}
+::placeholder { 
+    color: #f0d8d9;
+    opacity: 0.5; 
+    font-size: 12px;
+    font-family: "Lato";
+  }
+.information h4{
+    font-size: 18px;
+    line-height: 18px;
+    color: #f0d8d9;
+    font-family: "Lato";
+    font-weight: 900;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.information p{
+    width: 300px;
+    font-size: 12px;
+    line-height: 22px;
+    color: #f0d8d9;
+    font-family: "Lato";
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.information .icons{
+    display: flex;
+}
+.information span{
+font-size: 12px;
+line-height: 22px;
+color: #f0d8d9;
+font-family: "Lato";
+font-weight: 400;
+}
+.information .space{
+    width: 30px;
+}
+.get-quote-line{
+    height: 6px;
+    background-color: #ea676b;
+    max-width: 1020px;
+}
+
+footer {
+    background-color: #2d303a;
+    height: 76px;
+    width: 1020px;
+    padding-left: 40px;
+    padding-right: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .foot-icon{
+    display: flex;
+    align-items: center;
+}
+
+footer .foot-p{
+    font-size: 12px;
+    color: #666d89;
+    font-weight: 400;
+}
+
+.foot-icon a{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;  
+    border: 1px solid #666d89;
+    text-align: center;
+    margin-right: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #666d89;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+.a{
+    border: 1px solid blue;
+}

@@ -65,67 +65,87 @@ header .menu{
 .menu ul li a{
     font-size: 12px;
     line-height: 6px;
-    color: #f06c64;
+    color: #FFFFFF;
     font-family: "Lato";
     font-weight: 700;
     cursor: pointer;
     text-decoration: none;
+    text-transform: uppercase;
 }
 
-.menu ul li:after { 
-    content: " \00b7"; 
-    margin-left: 15px;
+nav ul li{
     margin-right: 15px;
-    color: #494E62;
+    list-style-type: none;
 }
-.menu ul li:last-child:after { 
-    content: none; 
+
+li:not(:first-child)::before {
+    content: " \2027";
+    color: #494e62;
+    margin-right: 15px;
+    font-size: 10px;
 }
-.menu ul li:not(:first-child){
-    color: #FFFFFF;
+
+ul li a:hover {
+    color: #f06c64;
 }
 
 .phone{
     height: 601px;
     background-color: #F06C64;
     display: flex;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
-#phone_vertical{
-    width: 390px;
-    position: relative;
-    height: 100%;
+.phone .wrapper{
+    display: flex;
+    max-width: 1020px;
 }
- .arrow_left{
-    position: absolute;
-    top: 285px;
-    left: 41px;
-    color: #CA4549;
+.arrow-left{
+    width: 15px;
     opacity: 0.2;
     cursor: pointer;
+    margin: auto 0;
 }
- img.phone_v{
+.phone_vertical{
+    width: 295px;
+    overflow: hidden;
+    position: relative;
+}
+.phone_v{
+    margin-left: 53px;
+    margin-top: 52px;
     position: absolute;
-    bottom: -511px;
- }
+}
 
-.phone #phone_horizontal{
-    width: 628px;
-    position: relative;
-    height: 100%;
+.shadow_v{
+    margin-left: 53px;
+    margin-top: 52px;
 }
-.arrow_right{
+
+.phone_h{
+    margin-left: 95px;
+    margin-top: 174px;
     position: absolute;
-    top: 285px;
-    right: 41px;
+}
+.shadow_h{
+    margin-left: 95px;
+    margin-top: 174px;
+}
+
+.phone_horizontal{
+    width: 610px;
+    /* height: 100%; */
+    position: relative;
+    
+}
+.arrow-right{
+    width: 15px;
     opacity: 0.2;
     cursor: pointer;
+    margin: auto 0;
 }
-img.phone_h{
-    position: absolute;
-    top: -80px;
-    right: 0px;
-}
+
 .our_services{
     height: 522px;
     background-color: #F2F2F2;
@@ -233,8 +253,11 @@ img.phone_h{
 
 
 .a{
-    border: 1px solid red;
+    border: 1px solid #2468;
 }
+.aa{
+    border: 1px solid blue;
+
 
 .b{
     background-color: pink;
