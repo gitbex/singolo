@@ -1042,6 +1042,7 @@ li:not(:first-child)::before {
     padding-left: 10px;
     padding-right: 10px;
     height: 496px;
+    width: 768px
 }
 
 .phone .wrapper{
@@ -1104,6 +1105,7 @@ li:not(:first-child)::before {
     height: 440px;
     padding-top: 27px;
     padding-bottom: 27px;
+    width: 768px;
 }
 .our_services h2{
     font-size: 18px;
@@ -1165,6 +1167,7 @@ div.services-line {
     padding-right: 12px;
     padding-top: 19px;
     padding-bottom: 30px ;
+    width: 768px;
 }
 .portfolio h2{
     margin-bottom: 15px;
@@ -1239,6 +1242,7 @@ span.tag{
     padding-right: 10px;
     padding-top: 15px;
     padding-bottom: 15px;
+    width: 768px;
 }
 .about_us .row{
     display: flex;
@@ -1290,6 +1294,7 @@ p.about_col{
     padding-right: 10px;
     padding-top: 10px;
     height: 393px;
+    width: 768px;
 }
 .get-quote h1{
     margin-bottom: 15px;
@@ -1414,6 +1419,33 @@ footer .foot-p{
     width: 8px;
     height: 8px;
 }
+
+
+div.header-line {
+    height: 3px;
+    width: 768px;
+}
+div.phone-line {
+    height: 3px;
+    width: 768px;
+}
+div.services-line {
+    height: 3px;
+    width: 768px;
+}
+div.portfolio-line {
+    height: 3px;
+    width: 768px;
+}
+div.about-line {
+    height: 3px;
+    width: 768px;
+}
+div.get-quote-line {
+    height: 3px;
+    width: 768px;
+}
+
 } 
 
 
@@ -1787,4 +1819,30 @@ footer .foot-p{
     width: 5px;
     height: 5px;
 }
+
+div.header-line {
+    height: 3px;
+    width: 375px;
+}
+div.phone-line {
+    height: 3px;
+    width: 375px;
+}
+div.services-line {
+    height: 3px;
+    width: 375px;
+}
+div.portfolio-line {
+    height: 3px;
+    width: 375px;
+}
+div.about-line {
+    height: 3px;
+    width: 375px;
+}
+div.get-quote-line {
+    height: 3px;
+    width: 375px;
+}
+
 }
